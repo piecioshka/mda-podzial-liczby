@@ -1,0 +1,43 @@
+<script src="podzial-liczby.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+<form id="do-it">
+    <label for="n">n: </label><input id="n" /><br>
+    <label for="k">k: </label><input id="k" /><br><br>
+    <input type="submit" value="Policz" />
+</form>
+
+<p style="display: none;"><br>Wynik: <label id="result"></label></p>
+
+<script type="text/javascript">
+    (function () {
+        var n = $("#n"), k = $("#k"), r, c = $("#result").parent();
+
+        $("#do-it").on("submit", function (event) {
+            // pobieramy pierwszą wartość z formularza
+            n = parseInt(n.val(), 10);
+
+            // pobieramy drugą wartość z formularza
+            k = parseInt(k.val(), 10);
+
+            try {
+                // liczymy liczbę Stirlinga
+                r = PodzialLiczby(n, k);
+
+                // pokasujemy kontener z wynikiem
+                c.show();
+
+                // wklejamy wynik
+                $("#result").text(r);
+            } catch (e) {
+                // ukrywamy kontener z wynikiem
+                c.hide();
+
+                // pokazujemy komunikat błędu
+                alert(e);
+            }
+
+            event.preventDefault();
+        });
+    }).call(this);
+</script>
