@@ -1,0 +1,4 @@
+header { padding: 15px; width: 100%; }
+header > h4 { margin: 0; }
+.result-block { border-top: 1px solid #cbcbcb; }
+article section { padding: 15px; margin: 0; }
