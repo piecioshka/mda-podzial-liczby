@@ -4,12 +4,8 @@ Mini aplikacja pozwalająca obliczyć podział liczby na składniki.
 
 ## Demo
 
-[http://piecioshka.pl/projects/mda-podzial-liczby/][1]
+<http://piecioshka.github.io/mda-podzial-liczby/>
 
 ## License
 
-[The MIT License][2]
-
-
-[1]: http://piecioshka.pl/projects/mda-podzial-liczby/
-[2]: http://piecioshka.mit-license.org/
+[The MIT License](http://piecioshka.mit-license.org/) @ 2014
