@@ -1,6 +1,6 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @see http://piecioshka.pl/projects/mda-podzial-liczby/
+ * @see https://piecioshka.github.io/mda-podzial-liczby/
  * @licence The MIT License {@link http://piecioshka.mit-license.org/}
  */
 (function () {
