@@ -2,7 +2,7 @@
 
 Mini aplikacja pozwalająca obliczyć podział liczby na składniki.
 
-## Demo 🎉
+## Preview 🎉
 
 <http://piecioshka.github.io/mda-podzial-liczby/>
 
