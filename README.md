@@ -8,4 +8,4 @@ Mini aplikacja pozwalająca obliczyć podział liczby na składniki.
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org/) @ 2014
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
